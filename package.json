@@ -1,0 +1,29 @@
+{
+    "name": "marcospaegle.github.io",
+    "version": "1.0.0",
+    "description": "My personal webcard",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/postcss ./src/css/app.css -o ./docs/assets/css/app.css",
+        "server": "./node_modules/.bin/live-server docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcospaegle/marcospaegle.github.io.git"
+    },
+    "keywords": [],
+    "author": "Marcos Paegle <marcos.paegle@gmail.com>",
+    "license": "ISC",
+    "homepage": "https://marcospaegle.github.io",
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.9.0",
+        "autoprefixer": "^9.6.0",
+        "live-server": "^1.2.1",
+        "postcss-cli": "^6.1.2",
+        "postcss-scss": "^2.0.0",
+        "tailwindcss": "^1.0.4"
+    }
+}
